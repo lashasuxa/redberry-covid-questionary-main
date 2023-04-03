@@ -39,7 +39,7 @@ form label {
   font-size: 22px;
   line-height: 26.55px;
   color: var(--darkText);
-  margin-top: 47px;
+  /* margin-top: 47px; */
 }
 form input {
   margin-top: 8px;
@@ -54,24 +54,20 @@ form input {
   background-color: transparent;
   padding: 11px 20px 8px 20px;
 }
-#name {
-  margin-bottom: 47px;
-}
-#surname {
-  margin-bottom: 47px;
-}
+
 form hr {
   margin-top: 111px;
   width: 237px;
   border: 0.8px solid var(--dark);
+}
+#mandatoryPar {
+  margin-top: 20px;
 }
 .info-img {
   margin-left: 137px;
   margin-top: -30px;
 }
 form p {
-  margin-top: 20px;
-  width: 365px;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
@@ -81,4 +77,15 @@ form p {
   background: transparent;
   border: none;
   cursor: pointer;
+}
+.error-box {
+  width: fit-content;
+  height: 20px;
+  margin-bottom: 27px;
+}
+.error {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.31px;
+  color: var(--error);
 }
