@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../common.css" />
+    <link rel="stylesheet" href="./personal.css" />
+    <title>Personal Page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="header-top">
+          <img src="../../assets/title.png" alt="" />
+          <span>1/4</span>
+        </div>
+        <hr />
+      </header>
+      <section class="content">
+        <form>
+          <label for="name">სახელი*</label>
+          <input type="text" id="name" name="name" placeholder="სახელი" />
+          <label for="surname">გვარი*</label>
+          <input type="text" id="surname" name="surname" placeholder="გვარი" />
+          <label for="email">მეილი*</label>
+          <input type="email" id="email" name="email" placeholder="მეილი" />
+          <hr />
+          <p>*-ით მონიშნული ველების შევსება სავალდებულოა</p>
+        </form>
+        <img src="../../assets/persons.png" alt="" class="info-img" />
+      </section>
+      <button class="next-btn" onclick="onNextPage()">
+        <svg
+          width="18"
+          height="23"
+          viewBox="0 0 18 23"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 1L15 11.3158L1 21.6316"
+            stroke="#232323"
+            stroke-width="2.4"
+          />
+        </svg>
+      </button>
+    </main>
+    <script src="./personal.js"></script>
+  </body>
+</html>
