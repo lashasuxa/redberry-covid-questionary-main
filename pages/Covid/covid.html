@@ -9,6 +9,89 @@
     <title>Covid Page</title>
   </head>
   <body>
-    <h1>hello again</h1>
+    <main>
+      <header>
+        <div class="header-top">
+          <img src="../../assets/title.png" alt="" />
+          <span>2/4</span>
+        </div>
+        <hr />
+      </header>
+      <section class="content">
+        <form>
+
+          <div class="radio-group">
+            <p>გაქვს გადატანილი Covid-19?*</p>
+            <label>
+              <input type="radio"  name="virus" value="yes">
+              <span >კი</span>
+            </label>
+            <label>
+              <input type="radio" name="virus" value="no">
+              <span >არა</span>
+            </label>
+            <label>
+              <input type="radio" name="virus" value="not-sure">
+              <span >ახლა მაქვს</span>
+            </label>
+          </div>
+
+          <div class="radio-group" id="tested-radio-group" style="display: none;">
+            <p>ანტისხეულების ტესტი გაქვს გაკეთებული?*</p>
+            <label>
+              <input type="radio" id="tested-yes" name="tested" value="yes">
+              <span >კი</span>
+            </label>
+            <label>
+              <input type="radio" id="tested-no" name="tested" value="no">
+              <span >არა</span>
+            </label>
+           
+          </div>
+          <div class="tested-info"></div>
+
+          
+
+       
+
+
+
+         
+
+
+
+        </form>
+        <img src="../../assets/temperature.png" alt="" class="info-img" />
+      </section>
+      <div class="button-box">
+        <button class="previous-btn">
+          <svg width="18" height="23" viewBox="0 0 18 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 1L3 11.3158L17 21.6316" stroke="#232323" stroke-width="2.4"/>
+            </svg>
+            <path
+              d="M1 1L15 11.3158L1 21.6316"
+              stroke="#232323"
+              stroke-width="2.4"
+            />
+          </svg>
+        </button>
+        <button class="next-btn" >
+          <svg
+            width="18"
+            height="23"
+            viewBox="0 0 18 23"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 1L15 11.3158L1 21.6316"
+              stroke="#232323"
+              stroke-width="2.4"
+            />
+          </svg>
+        </button>
+      </div>
+    </main>
+    <script src="./covid.js"></script>
   </body>
 </html>
