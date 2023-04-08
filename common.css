@@ -16,6 +16,8 @@
   --dark: #000000;
   --warning: #626262;
   --error: #f15524;
+  --navy: #208298;
+  --white: #ffffff;
 }
 body {
   width: 100vw;
