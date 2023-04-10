@@ -11,6 +11,7 @@ virusRadios.forEach(function (virusRadio) {
       testedRadioGroup.style.display = "flex";
     } else {
       testedRadioGroup.style.display = "none";
+      testInfo.innerHTML = "";
     }
   });
 });
@@ -66,6 +67,6 @@ nextBtn.addEventListener("click", () => {
     document.location.href = "../Vaccine/vaccine.html";
   } else {
     // Show an error message or highlight the required fields
-    alert("Please fill in all required fields.");
+    alert("გთხოვთ შეავსოთ მოცემული ველები");
   }
 });
