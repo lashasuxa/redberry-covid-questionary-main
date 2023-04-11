@@ -19,8 +19,8 @@
 
 ### Links
 
-- Solution URL: [Covid Questionary](https://github.com/lashasuxa/tip-calculator-app-main)
-- Live Site URL: [Covid Questionary](https://lashasuxa.github.io/tip-calculator-app-main/)
+- Solution URL: [Covid Questionary](https://github.com/lashasuxa/redberry-covid-questionary-main)
+- Live Site URL: [Covid Questionary](https://lashasuxa.github.io/redberry-covid-questionary-main/)
 
 ## My process
 
