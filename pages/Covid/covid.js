@@ -38,10 +38,6 @@ previousBtn.addEventListener("click", () => {
   document.location.href = "../Personal/personal.html";
 });
 
-// nextBtn.addEventListener("click", () => {
-//   document.location.href = "../Vaccine/vaccine.html";
-// });
-
 nextBtn.addEventListener("click", () => {
   // Check if all required inputs are filled
   let allInputsFilled = true;

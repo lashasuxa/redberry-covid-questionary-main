@@ -82,7 +82,8 @@ nextBtn.addEventListener("click", () => {
     'input[name="vaccine"]:checked'
   );
 
-  if (!selectedTestedRadio || !selectedVaccineRadio) {
+  //bug on one radio input
+  if (!selectedTestedRadio) {
     allInputsFilled = false;
   } else {
     allInputsFilled = true;

@@ -52,7 +52,7 @@ const emailCheckFunc = () => {
   return true;
 };
 
-// ვალიდაციას აკეთებს button ზე დაჭერამდე.
+// does validation before clicking button
 
 nameInput.addEventListener("input", () => {
   if (trySubmit) {
@@ -70,7 +70,7 @@ emailInput.addEventListener("input", () => {
   }
 });
 
-// აქ მთავრდება input ების ვალიდაცია
+// here end input validation
 
 const onNextPage = () => {
   if (!trySubmit) {
