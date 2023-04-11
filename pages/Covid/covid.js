@@ -1,5 +1,4 @@
 const previousBtn = document.querySelector(".previous-btn");
-console.log(previousBtn);
 const nextBtn = document.querySelector(".next-btn");
 
 const virusRadios = document.querySelectorAll('input[name="virus"]');
